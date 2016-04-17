@@ -1,0 +1,28 @@
+.address, #table table{
+    width: 100%;
+    
+    border-spacing: 0px 4px;
+}
+.address th, #table th {
+  font-size: 13px;
+  font-weight: normal;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+  padding: 8px;
+}
+.address td, #table td {
+  background: #e8edff;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+.address tr:hover td, #table tr:hover td {
+  background: #ccddff; 
+}
+
+#table td{
+    padding: 2px;
+}
